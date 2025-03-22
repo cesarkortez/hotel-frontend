@@ -1,0 +1,29 @@
+/* HotelList.css */
+
+.hotel-list {
+    padding: 2rem;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hotel-list h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hotel-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hotel-list li {
+    background: #f1f1f1;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  

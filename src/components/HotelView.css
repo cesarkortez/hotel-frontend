@@ -1,0 +1,201 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal de la vista */
+  .hotel-view {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Título principal */
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Lista de hoteles */
+  .hotel-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hotel-item {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .hotel-item:last-child {
+    border-bottom: none;
+  }
+  
+  .hotel-name {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .hotel-info {
+    margin: 0.2rem 0 0 0;
+    color: #555;
+  }
+  
+  /* Botón para mostrar/ocultar formulario */
+  .btn-container {
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  
+  .btn-toggle {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(45deg, #007bff, #00aaff);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn-toggle:hover {
+    background: linear-gradient(45deg, #005bb5, #0088cc);
+  }
+  
+  /* Estilos para el formulario */
+  .hotel-form-container {
+    margin: 2rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-message {
+    text-align: center;
+    color: green;
+  }
+  
+  .hotel-form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .hotel-form label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .hotel-form input,
+  .hotel-form select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .config-group {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    background: #fff;
+  }
+  
+  .sub-title {
+    margin-top: 1rem;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+  }
+  
+  .btn-add,
+  .btn-submit {
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn-add {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .btn-add:hover {
+    background: #218838;
+  }
+  
+  .btn-submit {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .btn-submit:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .btn-group {
+      flex-direction: column;
+    }
+    .btn-add,
+    .btn-submit {
+      margin-bottom: 1rem;
+    }
+  }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  }
+  
+  .btn-close {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-close:hover {
+    background: #0056b3;
+  }
+    
